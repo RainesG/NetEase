@@ -1,0 +1,46 @@
+input {
+    width: 10rem;
+    height: 1rem;
+    display: block;
+    margin: 1rem;
+    font-size: 1rem;
+    text-indent: 2rem;
+    font-weight: 400;
+}
+
+button {
+    width: 5rem;
+    height: 2rem;
+    display: block;
+    margin: 1rem;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+main {
+    width: 1200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+    border: 1px #336699 solid;
+    border-radius: 50%;
+}
+
+audio,
+input {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
